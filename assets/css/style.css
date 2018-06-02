@@ -83,11 +83,14 @@ a:hover{
     padding-top:10px;
     padding-bottom: 20px; 
 }
+<<<<<<< HEAD
 th{
     text-align: center;
 }
 
 
+=======
+>>>>>>> 2d9716b51c8a086f1273e76aa456a24a10a81b03
 @media only screen and (max-width: 1024) {
     #about-me{
         height: 400px;
