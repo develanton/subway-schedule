@@ -1,3 +1,3 @@
 # Subway Schedule 
-
- ##This is an app that was built and design to work with **Firebase**. 
+#
+##This is an app that was built and design to work with **Firebase**. <h2>
