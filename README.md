@@ -6,5 +6,4 @@
 * Every item added will be recorded to firebase database.
 
 
-
-## This is an app that was built and design to work with **Firebase**. 
+## This app was built and design to work with **Firebase**. 
