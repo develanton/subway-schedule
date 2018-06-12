@@ -69,8 +69,8 @@ a:hover{
     padding-bottom: 30px;
 }
 .box{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 #nav-section{
     padding: 0px;
@@ -83,14 +83,18 @@ a:hover{
     padding-top:10px;
     padding-bottom: 20px; 
 }
-<<<<<<< HEAD
 th{
     text-align: center;
 }
+tbody{
+    text-align: center;
+}
+#currentTime{
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
 
-
-=======
->>>>>>> 2d9716b51c8a086f1273e76aa456a24a10a81b03
 @media only screen and (max-width: 1024) {
     #about-me{
         height: 400px;
