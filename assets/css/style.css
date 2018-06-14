@@ -86,6 +86,9 @@ a:hover{
 th{
     text-align: center;
 }
+td{
+    text-align: center !important;
+}
 tbody{
     text-align: center;
 }

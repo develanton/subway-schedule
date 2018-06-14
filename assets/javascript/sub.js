@@ -1,18 +1,20 @@
 $(document).ready(function () {
 
-
+//checking jQuery CDN
   console.log("Its alive");
 
-  
+  // time and Format
   var currentTime = moment();
-  
   var formating = moment(currentTime).format('hh:mm');
 
+  // time check
   console.log(formating);
 
+ //Printing current time
   $('#currentTime').html("<font size='7'><strong><b>"+formating+"</b></strong></font>");
-  // Initialize Firebase
+  
 
+  // Initialize Firebase
   var config = {
     apiKey: "AIzaSyBal-rOWAaa2LvNqaBLrKXd19uOw2oLukM",
     authDomain: "subway-schedule.firebaseapp.com",
@@ -43,14 +45,6 @@ $(document).ready(function () {
     console.log("info: " + trainName);
 
 
-    // clearing input area
-
-    trainName = $("#train-name").val("");
-    destination = $("#destination").val("");
-    initialTime = $("#initial-time").val("");
-    frequency = $("#frequency").val("");
-
-
     // uploading inputs to database
     database.ref().push({
 
@@ -61,10 +55,19 @@ $(document).ready(function () {
 
     })
 
+    // clearing input area
+
+    trainName = $("#train-name").val("");
+    destination = $("#destination").val("");
+    initialTime = $("#initial-time").val("");
+    frequency = $("#frequency").val("");
+
+
+
   })
 
 
-  database.ref().on('child_added', function (snapshot) {
+  database.ref().on('child_added', function(snapshot) {
 
     console.log(snapshot.val());
 
